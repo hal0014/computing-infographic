@@ -1,0 +1,157 @@
+
+<html lang="en">
+
+<head>
+
+<title>Website Template</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link type="text/css" rel="stylesheet" href="menu.css" />
+<script type="text/javascript" src="menu.js"></script>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #000000;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #FFEC00;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 1000px;
+  background: #494949;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #A2A2A2;
+  height: 1000px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+</head>
+<body>
+
+
+<header>
+  <h2>BatKids and Co.</h2>
+</header>
+
+<style>
+
+a {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+</style>
+
+<section>
+  <nav>
+  
+  <table width="100" align="left" bgcolor="#0000FF" border="0">
+     <tr><td>
+          <div id="menu">
+               <ul id="topMenu">
+                    <li class="topMenuLink"><a href="#">Menu 1</a>
+						<ul class="subMenu">
+              <li class="subMenuLink"><a href="submenu1.html">Sub menu 1</a></li>
+	               <li class="subMenuLink"><a href="submenu2.html">Sub menu 2</a></li>	
+	               <li class="subMenuLink"><a href="submenu3.html">Sub menu 3</a></li>
+	               <li class="subMenuLink"><a href="submenu4.html">Sub menu 4</a></li>
+	               <li class="subMenuLink"><a href="submenu5.html">Sub menu 5</a></li>
+                         </ul>
+                    </li>
+              </ul>
+          </div>
+     </td></tr>
+</table>
+
+  
+  
+  
+  
+  
+    <ul style="font-size:24;">
+      <li><a href="#">Richard Grayson</a></li>
+	  <p> </p>
+	  <a href="Website.html">Jason Todd</a>
+	  <p> </p>
+      <li><a href="#">Timothy Drake</a></li>
+	  <p> </p>
+      <li><a href="#">Stephanie Brown</a></li>
+	  <p> </p>
+	  <li><a href="#">Damian Wayne</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+	<pre> 
+	Some stuff that seems interesting but isn't really
+	
+	testing different layout types
+	
+	deciding how to layout the website
+	
+	other stuff</pre>
+  </article>
+</section>
+
+<footer>
+  <p>Credits and stuff</p>
+</footer>
+
+</body>
+</html>
