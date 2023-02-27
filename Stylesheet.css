@@ -9,3 +9,10 @@ color:#FFFFFF;
 }
 
 body {background-color: #454655}
+
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
