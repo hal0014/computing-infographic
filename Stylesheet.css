@@ -1,14 +1,19 @@
-p {font-family:'Comic Sans MS';
+p {font-family:'Futura';
 font-size:15pt;
 color: #FFFFFF;
 }
 
-head {font-family:'Arial';
+head {font-family:'Futura';
 font-size:30pt;
 color:#FFFFFF;
 }
 
-body {background-color: #454655}
+h1 {font-family:'Futura';
+font-size:30pt;
+color:#FFFFFF;
+}
+
+body {background-color: #0C2747}
 
 .centre {
     display: block;
