@@ -1,6 +1,7 @@
 p {font-family:'Futura';
 font-size:15pt;
 color: #FFFFFF;
+margin: 50;
 }
 
 head {font-family:'Futura';
@@ -13,7 +14,20 @@ font-size:30pt;
 color:#FFFFFF;
 }
 
-body {background-color: #0C2747}
+body {background-color: #0C2747;
+}
+
+.bg {
+    opacity: 0.2;
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    order: -10;
+    width: 100%;
+    height: auto;
+    background-repeat: repeat-y;
+  }
 
 .centre {
     display: block;
