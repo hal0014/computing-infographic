@@ -100,3 +100,50 @@ body {background-color: #534444;
 .intexthl:hover{
     color: rgb(212, 136, 149);
 }
+
+.dropmenu{
+    color: lightgrey;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+.dropdown{
+    position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #ff4e4e;
+    right: 0;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-align: right;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #d02e2e;
+    border-radius: 25px;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display:block;
+    float: right!important;
+    border-radius: 25px;
+}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropmenu {color: grey;}
