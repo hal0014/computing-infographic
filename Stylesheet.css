@@ -160,5 +160,6 @@ body {background-color: #534444;
   .list{
     font-family: 'Golos Text', sans-serif;
 font-size:15pt;
+list-style:circle;
 color: #FFFFFF;
   }
